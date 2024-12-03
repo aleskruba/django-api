@@ -1,0 +1,5 @@
+pipenv install django
+pipenv shell
+django-admin startproject LittleLemon 
+python manage.py startapp LittleLemonDRF
+pipenv install djangorestframework
